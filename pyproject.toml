@@ -1,10 +1,10 @@
 [project]
 name = "access_django_user_admin"
-version = "1.4.5"
+version = "1.4.7"
 authors = [{ name = "Jesse Lambertson", email = "jelambe@iu.edu" }]
 description = "Django User Admin for ACCESS Django Apps"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
