@@ -1,6 +1,6 @@
 [project]
 name = "access_django_user_admin"
-version = "1.5.2"
+version = "1.5.3"
 authors = [{ name = "Jesse Lambertson", email = "jelambe@iu.edu" }]
 description = "Django User Admin for ACCESS Django Apps"
 readme = "README.md"
