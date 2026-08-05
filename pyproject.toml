@@ -1,10 +1,19 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "access_django_user_admin"
-version = "1.6.3"
+version = "1.7.0"
 authors = [{ name = "Jesse Lambertson", email = "jelambe@iu.edu" }]
 description = "Django User Admin for ACCESS Django Apps"
 readme = "README.md"
 requires-python = ">=3.10"
+dependencies = [
+    "Django>=5.0,<6.0",
+    "djangorestframework>=3.14,<4.0",
+    "requests>=2.31,<3.0",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
@@ -23,6 +32,9 @@ license-files = ["LICEN[CS]E*"]
 
 [tool.setuptools]
 include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [project.urls]
 Homepage = "https://github.com/access-ci-org/Operations_ACCESS_Django_User_Admin"
