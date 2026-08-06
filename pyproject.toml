@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "access_django_user_admin"
-version = "1.7.0"
+version = "1.7.1"
 authors = [{ name = "Jesse Lambertson", email = "jelambe@iu.edu" }]
 description = "Django User Admin for ACCESS Django Apps"
 readme = "README.md"
